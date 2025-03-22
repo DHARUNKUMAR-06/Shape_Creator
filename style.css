@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#input {
+    background-image: url("image.png");
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: lightgoldenrodyellow;
+
+}
+
+p {
+    font-size: 2em;
+    margin: 10px;
+    font-family: 'Times New Roman';
+    font-weight: 900;
+}
+
+#number {
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+#button {
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: gray;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: red;
+
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    color: white;
+    background-color: brown;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    height: 50px;
+    width: 80px;
+    background-color: darksalmon;
+
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
